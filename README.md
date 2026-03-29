@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by \<moashraf\>.*
+*This project has been created as part of the 42 curriculum by <login>.*
 
 # Libft
 
@@ -17,12 +17,14 @@ Standard functions rebuilt without any external library, behaving identically to
 | Category | Functions |
 |---|---|
 | Memory | `ft_memset` `ft_bzero` `ft_memcpy` `ft_memmove` `ft_memchr` `ft_memcmp` `ft_calloc` |
-| String | `ft_strlen` `ft_strchr` `ft_strrchr` `ft_strncmp` `ft_strnstr` `ft_strlcpy` `ft_strlcat` `ft_strdup` |
+| String | `ft_strlen` `ft_strchr` `ft_strrchr` `ft_strncmp` `ft_strnstr` `ft_strlcpy` `ft_strlcat` `ft_strdup` `ft_strstr` `ft_strcat` |
 | Character checks | `ft_isalpha` `ft_isdigit` `ft_isalnum` `ft_isascii` `ft_isprint` |
 | Character conversion | `ft_toupper` `ft_tolower` |
 | Numeric conversion | `ft_atoi` |
 
 > Character classification functions return `1` on match, `0` otherwise — unlike some libc implementations that return non-zero values.
+
+> **Note:** `ft_strstr` and `ft_strcat` are not required by the current subject (v19.0). They were part of an earlier version of the curriculum and have been kept for completeness and backwards compatibility with older projects.
 
 ### Part 2 — Additional utility functions
 
@@ -116,3 +118,7 @@ Include the header in any source file that needs it:
 - `man 3 ctype` — character classification and conversion
 - [C Standard Library reference (cppreference)](https://en.cppreference.com/w/c) — detailed documentation for all reimplemented functions
 - [Beej's Guide to C Programming](https://beej.us/guide/bgc/) — memory management and pointers reference
+
+### AI Usage
+
+AI was not used in the development of this project.
