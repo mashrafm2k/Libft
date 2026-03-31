@@ -118,3 +118,13 @@ Include the header in any source file that needs it:
 - `man 3 ctype` — character classification and conversion
 - [C Standard Library reference (cppreference)](https://en.cppreference.com/w/c) — detailed documentation for all reimplemented functions
 - [Beej's Guide to C Programming](https://beej.us/guide/bgc/) — memory management and pointers reference
+
+All **final code, testing, debugging decisions, and validation** were reviewed and executed manually to ensure full understanding and compliance with 42 academic integrity expectations.
+
+-------------------------------------------------------------------------
+
+## Author
+
+**42 student:** `moashraf`
+
+Part of the **42 Abu Dhabi** curriculum.
